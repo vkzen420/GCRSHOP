@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.test.TC2_Login_To_Customer">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="reportgeneration"/>
+          <include name="afterClass"/>
+          <include name="reportgeneration"/>
+          <include name="LoginTOExistingcust"/>
+          <include name="Extent_StartTC"/>
+        </methods>
+      </class> <!-- com.qa.test.TC2_Login_To_Customer -->
+      <class name="com.qa.test.TC1_NewCustomer_Creation">
+        <methods>
+          <include name="Creation_NewCustomer"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="reportgeneration"/>
+          <include name="Extent_StartTC"/>
+        </methods>
+      </class> <!-- com.qa.test.TC1_NewCustomer_Creation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
