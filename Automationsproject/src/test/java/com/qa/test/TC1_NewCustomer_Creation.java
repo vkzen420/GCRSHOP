@@ -42,6 +42,7 @@ public class TC1_NewCustomer_Creation extends ExtentReport_Util{
 		Thread.sleep(5000);
 		 ss.Takescreenshot(driver, "NewCuspage");
 		CC = new NewCustomerClass(driver);
+		
 	}
 
 	@Test
